@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background-color: bisque;
+    
+}
+.nav{
+    height: 70px;
+    background-color: rgb(99, 94, 94,0.3);
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+.nav ul li{
+    width: 150px;
+    height: 100%;
+    border-radius: 10PX;
+    transition: all 0.5s ease-in-out;
+}
+.nav ul li a{
+    line-height: 70px;
+    text-decoration: none;
+    color: #ffee6a;
+    font-size: 13px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.nav ul li a:hover{
+    transition: all 0.5s ease-in-out;
+    color: #00c8c4;
+}
+.nav ul li:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10PX;
+}
+.box{
+    width: 1200px;
+    height: 722px;
+    background-color: rgb(159, 169, 169,0.2);
+    border-radius: 20PX;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 20px;
+ box-shadow:  12px 12px 14px #585555,
+             -12px -12px 34px #ffffff;
+}
+.aside{
+    width: 300px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20PX;
+    position: relative;
+   
+}
+.aside .tox{
+    width: 100%;
+    height: 20%;
+    border-radius: 20PX;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.tox:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease-in-out; 
+}
+.tox .tox1{
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: auto;
+
+}
+.tox img
+{
+    width: 80px;
+    height: 80px;
+}
+.aside .tox h4{
+    margin-top: 10px;
+    text-align: center;
+}
+.aside ul li{
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    border-radius: 20PX;
+    transition: all 0.5s ease-in-out;
+}
+.aside ul li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+.aside ul li a{
+    line-height: 72px;
+    text-decoration: none;
+    color: #000;
+}
+.article{
+    width: 850px;
+    height: 100%;
+    border-radius: 20PX;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 0;
+}
+.aside ul li i{
+    margin-right: 20px;
+    color: #000;
+    font-size: 20px;
+}
+.article  img{
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+}
+.zu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article .zuh1{
+    text-align: center;
+    margin-top: 50px;
+}
